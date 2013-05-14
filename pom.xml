@@ -600,9 +600,12 @@
         <extensions>true</extensions>
         <inherited>false</inherited>
         <configuration>
-          <serverId>ossrh-releases</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <stagingProfileId>42b61fb4c62700</stagingProfileId>
+          <!--<serverId>ossrh-releases</serverId>-->
+          <!--<nexusUrl>https://oss.sonatype.org/</nexusUrl>-->
+          <!--<stagingProfileId>42b61fb4c62700</stagingProfileId>-->
+          <serverId>staging-nexus</serverId>
+          <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
+          <stagingProfileId>12e6d2e96222d49e</stagingProfileId>
         </configuration>
       </plugin>
     </plugins>
