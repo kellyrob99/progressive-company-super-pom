@@ -30,14 +30,14 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/simpligility/progressive-company-super-pom.git</connection>
-    <developerConnection>scm:git:git@github.com:simpligility/progressive-company-super-pom.git</developerConnection>
-    <url>http://github.com/simpligility/progressive-company-super-pom/tree/master</url>
+    <connection>scm:git:git://github.com/kellyrob99/progressive-company-super-pom.git</connection>
+    <developerConnection>scm:git:git@github.com:kellyrob99/progressive-company-super-pom.git</developerConnection>
+    <url>http://github.com/kellyrob99/progressive-company-super-pom/tree/master</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>Github</system>
-    <url>http://github.com/simpligility/progressive-company-super-pom/</url>
+    <url>http://github.com/kellyrob99/progressive-company-super-pom/</url>
   </issueManagement>
   <prerequisites>
     <maven>3.0.3</maven>
