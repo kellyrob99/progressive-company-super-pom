@@ -613,17 +613,17 @@
       <build>
         <plugins>
           <!-- We want to sign the artifact, the POM, and all attached artifacts -->
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <executions>
-              <execution>
-                <goals>
-                  <goal>sign</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
+            <!--<plugin>-->
+              <!--<groupId>org.apache.maven.plugins</groupId>-->
+              <!--<artifactId>maven-gpg-plugin</artifactId>-->
+              <!--<executions>-->
+                <!--<execution>-->
+                  <!--<goals>-->
+                    <!--<goal>sign</goal>-->
+                  <!--</goals>-->
+                <!--</execution>-->
+              <!--</executions>-->
+            <!--</plugin>-->
           <!-- We want to deploy the artifact to a staging location for perusal -->
           <plugin>
             <inherited>true</inherited>
